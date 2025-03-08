@@ -1,4 +1,4 @@
-import { mobile, backend, creator, web, javascript, typescript, html, css, reactjs, redux, tailwind, nodejs, mongodb, git, figma, docker, digital, donymusic, threejs } from "../assets";
+import { tactee, javascript, mysql, html, css, reactjs, redux, tailwind, nodejs, mongodb, git, php, docker, donymusic, bootstrap, mycabeo, upcycle, symfony } from "../assets";
 
 export const navLinks = [
     {
@@ -29,8 +29,8 @@ const technologies = [
         icon: javascript,
     },
     {
-        name: "TypeScript",
-        icon: typescript,
+        name: "Mysql",
+        icon: mysql,
     },
     {
         name: "React JS",
@@ -39,6 +39,10 @@ const technologies = [
     {
         name: "Redux Toolkit",
         icon: redux,
+    },
+    {
+        name: "Symfony",
+        icon: symfony,
     },
     {
         name: "Tailwind CSS",
@@ -53,16 +57,16 @@ const technologies = [
         icon: mongodb,
     },
     {
-        name: "Three JS",
-        icon: threejs,
+        name: "Bootstrap",
+        icon: bootstrap,
     },
     {
         name: "git",
         icon: git,
     },
     {
-        name: "figma",
-        icon: figma,
+        name: "php",
+        icon: php,
     },
     {
         name: "docker",
@@ -72,67 +76,106 @@ const technologies = [
 
 const experiences = [
     {
-        title: "Développeur Symfony",
-        company_name: "Adexca Expert Comptable",
+        title: "Développeur Web",
+        company_name: "Donymusic (Plateforme e-learning)",
         iconBg: "#383E56",
-        date: "2022 - 2023",
-        points: ["Résolution des incidents techniques en identifiant les causes et en apportant des solutions adaptées.", "Correction de bugs variés et mise en place de mesures de sécurité pour protéger les données sensibles.", "Fiabilisation de la génération en PDF des documents fiscaux à l'aide de Symfony, Dompdf et Ajax.", "Collaboration avec les experts-comptables pour répondre aux besoins spécifiques des utilisateurs finaux."],
+        date: "Septembre 2024 - Actuellement",
+        points: ["Conception et développement du site web from scratch avec React.js et Node.js, garantissant une architecture performante et maintenable.", "Mise en place d’un système dynamique avec MySQL et Sequelize, pour la gestion et l’administration des formations et masterclasses en ligne.", "Intégration d’une solution de paiement et d’un espace membre sécurisé.", "Intervenir sur les phases de cadrage du besoin client."],
+    },
+    {
+        title: "Développeur Symfony",
+        company_name: "Cabinet Adexca",
+        iconBg: "#383E56",
+        date: "Septembre 2022 - Octobre 2023",
+        points: ["Développement d'une solution SaaS pour la gestion des cabinets d’expertise comptable, intégrant automatisation, centralisation des données et suivi en temps réel.", "Intégration d’APIs REST pour la saisie automatique des données.", "Automatisation des documents juridiques, administratifs et internes.", "Réduction du temps de gestion comptable grâce à l’automatisation."],
     },
     {
         title: "Développeur Intégrateur Web",
-        company_name: "Agence Web Tactee",
+        company_name: "Agence Digital Tactee",
         iconBg: "#383E56",
         date: "Décembre 2020 - Août 2021",
-        points: ["Maintenance et optimisation de sites web pour garantir leur performance et leur sécurité.", "Collaboration avec les chefs de projet pour piloter le développement de sites, de la conception à la mise en ligne.", "Identification et correction des bugs afin d'améliorer l'expérience utilisateur.", "Mises à jour régulières et maintenance continue des sites existants."],
+        points: ["Création de sites vitrines, e-commerce et de contenu selon le secteur du client et de sa cible.", "Transformation des maquettes graphiques en pages web fonctionnelles (HTML, CSS, JavaScript, CMS).", "Répondre aux attentes du client à travers des échanges réguliers pour proposer des solutions adaptées.", "Collaboration étroite avec les designers, chefs de projet et spécialistes SEO pour livrer des projets performants et alignés aux objectifs marketing."],
     },
 ];
 
 const projects = [
     {
-        name: "Digital discount",
-        description: "Un site e-commerce proposant des abonnements Netflix, Spotify et autres services à des prix réduits, avec une interface intuitive et un processus d'achat simplifié.",
+        name: "Agence Digital Tactee",
+        description: "L'agence Tactee Création Web accompagne les entreprises dans le développement de leur présence en ligne en proposant des services de création, refonte et optimisation de sites internet adaptés aux besoins des clients.",
         tags: [
             {
-                name: "react",
-                color: "blue-text-gradient",
+                name: "Wordpress",
+                color: "black-gradient",
             },
             {
-                name: "mysql",
+                name: "FileZilla",
+                color: "gray-gradient",
+            },
+        ],
+        image: tactee,
+        url: "https://www.tactee.fr",
+    },
+    {
+        name: "MyCabeo",
+        description: "Le projet SaaS développé vise à optimiser la gestion des cabinets d’expertise comptable en automatisant plusieurs processus clés. Il centralise les données, fluidifie la communication et améliore le suivi des dossiers.",
+        tags: [
+            {
+                name: "Symfony",
+                color: "orange-text-gradient",
+            },
+            {
+                name: "Mysql",
                 color: "green-text-gradient",
             },
             {
-                name: "tailwind",
-                color: "pink-text-gradient",
+                name: "JavaScript",
+                color: "cyan-text-gradient",
+            },
+            {
+                name: "Ajax",
+                color: "red-text-gradient",
             },
         ],
-        image: digital,
-        url: "https://digital-discount.co",
-        source_code_link: "https://github.com/CJ-JC/findAll",
+        image: mycabeo,
+        url: "https://cab-eo.fr",
+        source_code_link: "https://github.com/levi613/mycabeo_final",
     },
     {
         name: "Donymusic",
         description: "Un site proposant des formations de musique en ligne, avec des masterclasses immersives animées par des experts pour aider les passionnés à perfectionner leur art.",
         tags: [
             {
-                name: "react",
+                name: "React",
                 color: "blue-text-gradient",
             },
             {
-                name: "mysql",
+                name: "Mysql",
                 color: "green-text-gradient",
             },
             {
-                name: "nodejs",
+                name: "Nodejs",
                 color: "violet-gradient",
             },
             {
-                name: "tailwind",
+                name: "Tailwind",
                 color: "pink-text-gradient",
             },
         ],
         image: donymusic,
         url: "https://donymusic.fr",
         source_code_link: "https://github.com/CJ-JC/site-dony",
+    },
+    {
+        name: "Upcycle",
+        description: "Cette solution propose aux collectivités, entreprises et associations de valoriser leurs biodéchets directement sur site grâce au compostage local. L’objectif est de réduire les coûts, d’améliorer l’impact environnemental et de renforcer l’ancrage local en réutilisant le compost produit.",
+        tags: [
+            {
+                name: "Wordpress",
+                color: "black-gradient",
+            },
+        ],
+        image: upcycle,
+        url: "https://www.upcycle.org",
     },
 ];
 

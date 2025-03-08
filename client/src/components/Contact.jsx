@@ -44,7 +44,7 @@ const Contact = () => {
     return (
         <>
             <p className={styles.sectionSubText}>Prise de contact</p>
-            <h3 className={styles.sectionHeadText}>Discuter ensemble.</h3>
+            <h3 className={styles.sectionHeadText}>Discutons ensemble.</h3>
             <div className="container mx-auto">
                 <motion.div variants={slideIn("left", "tween", 0.2, 1)} className="flex-[0.75] bg-black-100 p-8 rounded-2xl">
                     <form className="mx-auto my-4 w-full lg:w-5/12" onSubmit={sendEmail}>

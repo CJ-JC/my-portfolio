@@ -1,8 +1,4 @@
 import logo from "/profil.jpg";
-import backend from "./backend.png";
-import creator from "./creator.png";
-import mobile from "./mobile.png";
-import web from "./web.png";
 import github from "./github-svgrepo.svg";
 import menu from "./menu.svg";
 import close from "./close.svg";
@@ -19,7 +15,10 @@ import reactjs from "./tech/reactjs.png";
 import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
-import threejs from "./tech/threejs.svg";
+import bootstrap from "./tech/bootstrap.svg";
+import mysql from "./tech/mysql.svg";
+import php from "./tech/php.svg";
+import symfony from "./tech/symfony.svg";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -27,7 +26,9 @@ import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 
 import digital from "./digital-discount.png";
+import tactee from "./tactee.png";
+import upcycle from "./upcycle.png";
+import mycabeo from "./mycabeo.png";
 import donymusic from "./donymusic.png";
-import tripguide from "./tripguide.png";
 
-export { logo, backend, creator, mobile, web, github, menu, close, css, docker, figma, git, html, javascript, mongodb, nodejs, reactjs, redux, tailwind, typescript, threejs, meta, shopify, starbucks, tesla, digital, donymusic, tripguide };
+export { logo, upcycle, tactee, mycabeo, github, menu, close, css, docker, figma, git, html, javascript, mongodb, nodejs, reactjs, redux, tailwind, mysql, symfony, bootstrap, meta, shopify, starbucks, tesla, digital, donymusic, php };

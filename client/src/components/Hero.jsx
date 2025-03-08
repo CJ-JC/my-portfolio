@@ -17,7 +17,8 @@ const Hero = () => {
                         <span className="text-[#915EFF]">Joachim Cherley</span>
                     </h1>
                     <p className={`${styles.heroSubText} my-2 text-white-100`}>
-                        Développeur JS - PHP <br className="sm:block hidden" />
+                        Développeur Web
+                        <br className="sm:block hidden" />
                     </p>
                     <div className="mx-auto my-3 flex gap-3 flex-col lg:flex-row">
                         <div className="flex items-center gap-1">
@@ -31,7 +32,7 @@ const Hero = () => {
                                 <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-sky-400 opacity-75"></span>
                                 <span className="relative inline-flex rounded-full h-3 w-3 bg-green-500"></span>
                             </span>
-                            <p>Disponible pour un nouveau challenge</p>
+                            <p>Disponible pour de nouveaux challenges</p>
                         </div>
                     </div>
                     <div className="mx-auto flex items-center flex-wrap gap-3">
@@ -47,7 +48,7 @@ const Hero = () => {
                             </svg>
                             Github
                         </a>
-                        <a className="p-1.5 rounded-full shadow-sm hover:-translate-y-1 hover:scale-105 ease-in-out text-black border-2 bg-white hover:bg-gray-200 border-black duration-300 flex justify-between gap-1" href="/Cv-Cherley-JOACHIM.pdf" download="Cv-Cherley-JOACHIM.pdf">
+                        <a className="p-1.5 rounded-full shadow-sm hover:-translate-y-1 hover:scale-105 ease-in-out text-black border-2 bg-white hover:bg-gray-200 border-black duration-300 flex justify-between gap-1" href="/cv-Joachim-Cherley.pdf" download="cv-Joachim-Cherley.pdf">
                             <svg className="text-sky-700" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" viewBox="0 0 24 24">
                                 <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 13V4M7 14H5a1 1 0 0 0-1 1v4a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1v-4a1 1 0 0 0-1-1h-2m-1-5-4 5-4-5m9 8h.01" />
                             </svg>
