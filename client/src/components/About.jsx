@@ -5,6 +5,7 @@ import { motion } from "framer-motion";
 import { styles } from "../styles";
 import { SectionWrapper } from "../hoc";
 import { fadeIn, textVariant } from "../utils/motion";
+import profil_img from "../../public/my-profil.png";
 
 const ServiceCard = ({ index, title, icon }) => (
     // <Tilt className='xs:w-[250px] w-full'>
@@ -35,15 +36,20 @@ const About = () => {
                 <h2 className={styles.sectionHeadText}>À propos de moi.</h2>
             </motion.div>
 
-            <motion.p variants={fadeIn("", "", 0.1, 1)} className="mt-4 space-y-3 text-secondary text-[17px] max-w-3xl leading-[30px]">
-                <p className="text-justify">Salut, moi c'est Cherley, développeur web passionné, diplômé d’un Master en développement web. Je crée des sites performants, intuitifs et centrés utilisateur.</p>
+            <section className="flex-1 flex flex-col-reverse md:flex-row items-center justify-between space-x-3">
+                <motion.div variants={fadeIn("", "", 0.1, 1)} className="md:w-1/2 text-justify grid gap-4 text-secondary text-[17px] leading-[30px]">
+                    <p>Salut, moi c'est Cherley, développeur web passionné, diplômé d’un Master en développement web. Je crée des sites performants, intuitifs et centrés utilisateur.</p>
+                    <p>
+                        Fort de plusieurs expériences sur des projets complexes, j'ai développé une solide expertise avec des technologies comme Symfony et ReactJS. <br />
+                        Mon objectif : relever des défis techniques avec des solutions innovantes.
+                    </p>
+                    <p>Ce portfolio est un aperçu de mes compétences et de mon parcours. J'espère que vous y trouverez une bonne vision de mon travail. Si vous souhaitez discuter de vos projets ou envisager une collaboration, n’hésitez pas à me contacter !</p>
+                </motion.div>
 
-                <p className="text-justify">
-                    Fort de plusieurs expériences sur des projets complexes, j'ai développé une solide expertise avec des technologies comme Symfony et ReactJS. <br /> Mon objectif : relever des défis techniques avec des solutions innovantes.
-                </p>
-
-                <p className="text-justify">Ce portfolio est un aperçu de mes compétences et de mon parcours. J'espère que vous y trouverez une bonne vision de mon travail. Si vous souhaitez discuter de vos projets ou envisager une collaboration, n’hésitez pas à me contacter !</p>
-            </motion.p>
+                <div className="md:w-1/2 flex justify-center mb-6 md:mb-0">
+                    <img src={profil_img} alt="photo de profil" className="w-64 h-64 sm:w-80 sm:h-80 rounded-full bg-gradient-to-l shadow-lg shadow-cyan-500/50 from-slate-900 to-slate-750 object-cover" />
+                </div>
+            </section>
         </>
     );
 };
