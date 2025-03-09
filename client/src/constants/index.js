@@ -79,7 +79,7 @@ const experiences = [
         title: "Développeur Web",
         company_name: "Donymusic (Plateforme e-learning)",
         iconBg: "#383E56",
-        date: "Septembre 2024 - Actuellement",
+        date: "Janvier 2024 - Actuellement",
         points: ["Conception et développement du site web from scratch avec React.js et Node.js, garantissant une architecture performante et maintenable.", "Mise en place d’un système dynamique avec MySQL et Sequelize, pour la gestion et l’administration des formations et masterclasses en ligne.", "Intégration d’une solution de paiement et d’un espace membre sécurisé.", "Intervenir sur les phases de cadrage du besoin client."],
     },
     {
@@ -93,7 +93,7 @@ const experiences = [
         title: "Développeur Intégrateur Web",
         company_name: "Agence Digital Tactee",
         iconBg: "#383E56",
-        date: "Décembre 2020 - Août 2021",
+        date: "Décembre 2021 - Août 2022",
         points: ["Création de sites vitrines, e-commerce et de contenu selon le secteur du client et de sa cible.", "Transformation des maquettes graphiques en pages web fonctionnelles (HTML, CSS, JavaScript, CMS).", "Répondre aux attentes du client à travers des échanges réguliers pour proposer des solutions adaptées.", "Collaboration étroite avec les designers, chefs de projet et spécialistes SEO pour livrer des projets performants et alignés aux objectifs marketing."],
     },
 ];
