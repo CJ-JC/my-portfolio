@@ -11,10 +11,10 @@ const Hero = () => {
                     <div className="w-5 h-5 rounded-full bg-[#915EFF]" />
                     <div className="w-1 sm:h-80 h-40 violet-gradient" />
                 </div>
-
+                &
                 <div className="z-10">
                     <h1 className={`${styles.heroHeadText} text-white md:text-7xl text-3xl`}>
-                        <span className="text-[#915EFF]">Joachim Cherley</span>
+                        <span className="text-[#915EFF]">Cherley Joachim</span>
                     </h1>
                     <p className={`${styles.heroSubText} my-2 text-white-100`}>
                         Développeur Web
