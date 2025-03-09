@@ -79,7 +79,7 @@ const experiences = [
         title: "Développeur Web",
         company_name: "Donymusic (Plateforme e-learning)",
         iconBg: "#383E56",
-        date: "Septembre 2024 - Actuellement",
+        date: "Janvier 2024 - Mars 2025",
         points: ["Conception et développement du site web from scratch avec React.js et Node.js, garantissant une architecture performante et maintenable.", "Mise en place d’un système dynamique avec MySQL et Sequelize, pour la gestion et l’administration des formations et masterclasses en ligne.", "Intégration d’une solution de paiement et d’un espace membre sécurisé.", "Intervenir sur les phases de cadrage du besoin client."],
     },
     {
